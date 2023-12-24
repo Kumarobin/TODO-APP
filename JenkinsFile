@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("clone"){
             steps{echo "Cloning Stage"
-            git url:"https://https://github.com/ diabloexodia/TODO-APP.git" , branch:"main"}
+            git url:"https://https://github.com/diabloexodia/TODO-APP.git" , branch:"main"}
             
         }   
         stage("build"){
